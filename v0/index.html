@@ -11,7 +11,11 @@
 	<link href="favicon.ico" type="image/ico" rel="icon">
 	<script type="text/javascript" src="../js/swfobject.js"></script>
 	<script type="text/javascript">
-		swfobject.embedSWF("https://raw.githubusercontent.com/Joalor64GH/Incredibox-Flash/main/v0/index.swf", "flashcontent", "100%", "100%", "9", "#ffffff");
+		var so = new SWFObject('https://raw.githubusercontent.com/Joalor64GH/Incredibox-Flash/main/v0/index.swf', 'flashcontent', '100%', '100%', '9', '#ffffff');
+    	so.addParam('menu', 'false');
+    	so.addParam('scale', 'noscale');
+    	so.addParam('salign', 'lt'); 
+    	so.write('flashcontent');
     </script>
 	<style type="text/css">
 	* {

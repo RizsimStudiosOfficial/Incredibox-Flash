@@ -80,15 +80,15 @@
                 + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
 
 
-		<meta property="og:title" content="INCREDIBOX V4 - &quot;Love&quot;">
-		<meta property="og:description" content="Express your musicality on Incredibox with the third version called &quot;Sunrise&quot;. Create your mix, record it, share it then join the TOP 50 chart! Pump it up and chill ;)">
-		<meta property="og:type" content="website">
-		<meta property="og:image" content="http://www.incredibox.com/img/share/fb-incredibox-v4.jpg">
+				<meta property="og:title" content="INCREDIBOX V4 - &quot;Love&quot;">
+				<meta property="og:description" content="Express your musicality on Incredibox with the fourth version called &quot;Love&quot;. Create your mix, record it, share it a lot to make it to the TOP 50! Pump it up and chill ;)">
+				<meta property="og:type" content="website">
+				<meta property="og:image" content="http://www.incredibox.com/img/share/fb-incredibox-v4.jpg">
 
-		<link href="http://www.incredibox.com/img/favicon.ico" type="image/ico" rel="icon">
+		<link href="https://www.incredibox.com/img/favicon.ico" type="image/ico" rel="icon">
 		<link href="../css/index.css" rel="stylesheet">
-		<link href='http://fonts.googleapis.com/css?family=Allan' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,700' rel='stylesheet' type='text/css'>
 
 		<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
 		<!--[if lt IE 10]><script type="text/javascript" src="../js/jquery.placeholder.js"></script><![endif]-->
@@ -100,7 +100,7 @@
 		<script type="text/javascript">
 			
 			var flashversion = "9.0.0";
-			var domain = (location.protocol.indexOf('http')>-1) ? "http://www.incredibox.com/" : "http://www.incredibox.com/";
+			var domain = (location.protocol.indexOf('https')>-1) ? "https://www.incredibox.com/" : "http://www.incredibox.com/";
 			var versionIE = 0;
 
 			$(document).ready(function() {
@@ -133,83 +133,7 @@
 	</head>
 	<body>
 		<noscript><div id="info-js"><p>You have to enable JavaScript in your browser settings to access this website</p></div></noscript>
-
-		<div id="bbox">
-	
-	<div id="bbox-fd"></div>
-	
-	<div id="bbox-body">
-		
-		<div id="bbox-click"></div>
-		<!-- ______________________________________________________________ -->
-		<!-- _____________________________________________ POPUP INVITATION -->
-		
-		<div class="popup" id="box-mail">
-			<div class="popup-head">
-				<span>Send Incredibox to a friend</span>
-				<div class="popup-close"></div>
-			</div>
-			<div class="popup-body">
-			
-				<form action='javascript:sendInvitation()' id="form-mail" method='post' target='_self'>
-					<input type="text" name="name" id="mail-name" maxlength="20" placeholder="Enter your name *"/><!--
-				 --><input type="text" name="email" id="mail-email" maxlength="254" placeholder="Enter your friend email address *"/>
-					<input type="submit" class="btround bt-send" id="bt-send-mail" value="Send"/>
-					<div class='popup-alert' id="alert-mail"></div>
-					<div class="clear"></div>
-				</form>
 				
-			</div>
-		</div>
-
-		<!-- ______________________________________________________________ -->
-		<!-- _____________________________________________ POPUP NEWSLETTER -->
-
-		<div class="popup" id="box-news">
-			<div class="popup-head">
-				Subscribe to our newsletter
-				<div class="popup-close"></div>
-			</div>
-			<div class="popup-body">
-			
-				<form action='javascript:subscriptionNews()' id="form-news" method='post' target='_self'>
-					<input type="text" name="name" id="news-name" required maxlength="20" placeholder="Your name *"/><!--
-				 --><input type="text" name="email" id="news-email" required maxlength="254" placeholder="Your email address *"/>
-					<input type="submit" class="btround bt-send" id="bt-send-news"  value="Subscribe"/>
-					<div class='popup-alert' id="alert-news"></div>
-					<div class="clear"></div>
-				</form>
-				<p>We hate SPAM as much as you do. By subscribing you will only receive news from Incredibox. <a href='http://www.incredibox.com/info/privacy' target='_blank'>Privacy policy</a></p>
-			</div>
-		</div>
-
-		<!-- ______________________________________________________________ -->
-		<!-- _____________________________________________ POPUP NEWSLETTER -->
-
-		<div class="popup" id="box-app">
-			<div class="popup-close"></div>
-			<div class="popup-body v5">
-				<div id="head-banner"></div>
-				<div id="packshot"></div>
-				<a href="http://standards.aasl.org/project/ba18/" target="_blank" id="award"></a>
-				<div class="box-bt-store">
-					<a href='http://itunes.apple.com/app/id1093131935' target='_blank' class='bt-store' onclick="saveGA('click_bt_appstore', 'Click from popup get app', 'click_bt_store');"><div class="bck appstore"></div></a>
-						<a href='http://play.google.com/store/apps/details?id=com.sofarsogood.incredibox' target='_blank' class='bt-store' onclick="saveGA('click_bt_playstore', 'Click from popup get app', 'click_bt_store');"><div class="bck playstore"></div></a>
-						<a href='http://www.amazon.fr/So-Far-Good-Incredibox/dp/B07BKZCDHT/' target='_blank' class='bt-store' onclick="saveGA('click_bt_amazon', 'Click from popup get app', 'click_bt_store');"><div class="bck amazonstore"></div></a>
-						<a href='http://itunes.apple.com/app/id1437906083' target='_blank' class='bt-store' onclick="saveGA('click_bt_macappastore', 'Click from popup get app', 'click_bt_store');"><div class="bck macappstore"></div></a>
-						<a href='http://www.microsoft.com/store/apps/9PDJPP8SCS9K' target='_blank' class='bt-store' onclick="saveGA('click_bt_windowsstore', 'Click from popup get app', 'click_bt_store');"><div class="bck windowsstore"></div></a>
-				</div>
-			</div>
-		</div>
-
-
-		
-
-				
-	</div>
-</div>		<!-- ____________________________________________________ -->
-		<!-- _____________________________________________ HEADER -->			
-		
 		<!-- _____________________________________________________ -->
 		<!-- _____________________________________________ CONTENT -->
 		<div id="wrap" class="game v4">
@@ -221,42 +145,23 @@
 						<p>presents</p>
 						<h2>The love</h2>
 						<span>2014</span>
-						<div class="version nosmooth">V4</div>
+						<div class="version nosmooth">V2</div>
 					</div>
 				</div>
-				<!-- <a href='http://itunes.apple.com/app/id1093131935' target='_blank' class='bt-store' id="bt-appstore" onclick="saveGA('click_bt_appstore', 'Click from header', 'click_bt_store');"></a>
-<a href='http://play.google.com/store/apps/details?id=com.sofarsogood.incredibox' target='_blank' class='bt-store' id="bt-playstore" onclick="saveGA('click_bt_playstore', 'Click from header', 'click_bt_store');"></a> -->
-
-</div>
+				<a href='https://itunes.apple.com/app/id1093131935' target='_blank' class='bt-store' id="bt-appstore" onclick="saveGA('click_bt_appstore', 'Click from header', 'click_bt_store');"></a>
+				<a href='https://play.google.com/store/apps/details?id=com.sofarsogood.incredibox' target='_blank' class='bt-store' id="bt-playstore" onclick="saveGA('click_bt_playstore', 'Click from header', 'click_bt_store');"></a>
+			</div>
 
 			<!-- _____________________________________________ FLASH APP V3 -->
 
-			<!-- _____________________________ BT SHARE -->			
-<div id="bt-share">
-	<!-- _____________________________ BT SHARER -->
-	<div id="fb-root"></div>
-	<script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&appId=141702929258451&version=v2.0"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
-	<div class="fb-like" data-href="http://www.facebook.com/incredibox" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-	<a class="bt-share" id="b_face" onclick="windowPopup('http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.incredibox.com%2Fv3%2F',560,350,true); saveGA('Bouton share', 'Click Facebook header');"></a>
-	<a class="bt-share" id="b_twit" onclick="windowPopup('http://twitter.com/intent/tweet?text=Guys%2C+you+should+try+this%21+Thanks+%40incredibox_+%23musicApp+%23fun&amp;url=http%3A%2F%2Fwww.incredibox.com%2Fv3%2F', 560,350,true); saveGA('Bouton share', 'Click Twitter header');"></a>
-	<div class="bt-share" id="b_mail" onclick="openPopup('box-mail')"></div>
-	<div class="bt-share" id="b_more" onclick="openShare();saveGA('www', 'bt-share-more');"></div>
-	<a class="bt-share" id="b_pint" target="_blank" href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.incredibox.com%2Fv3%2F&amp;media=http%3A%2F%2Fwww.incredibox.com%2Fimg%2Fimg-incredibox-pinit.jpg&amp;description=Guys%2C+you+should+try+this%21+Thanks+%40incredibox_+%23musicApp+%23fun" onclick="saveGA('Bouton share', 'Click Pinterest header');"></a>
-	<a class="bt-share" id="b_stum" target="_blank" href="http://www.stumbleupon.com/badge/?url=http%3A%2F%2Fwww.incredibox.com%2Fv3%2F/" onclick="saveGA('Bouton share', 'Click Facebook header');"></a>
-	<a class="bt-share" id="b_redd" target="_blank" href="http://ssl.reddit.com/login?dest=http%3A%2F%2Fwww.reddit.com%2Fsubmit%3Furl%3Dhttp%3A%2F%2Fwww.incredibox.com%2Fv3%2F%26title%3DGuys%2C+you+should+try+this%21+Thanks+%40incredibox_+%23musicApp+%23fun" onclick="saveGA('Bouton share', 'Click StumbleUpon header');"></a>
-	<a class="bt-share" id="b_tumb" target="_blank" href="http://www.tumblr.com/login?s=&amp;t=Guys%2C+you+should+try+this%21+Thanks+%40incredibox_+%23musicApp+%23fun&amp;u=http%3A%2F%2Fwww.incredibox.com%2Fv3%2F" onclick="saveGA('Bouton share', 'Click Tumblr header');"></a>
-	<div class="clear"></div>
-</div>
+
 			<div class="middle" id="box-game">
 				<div id="flashContent">
-					<div class="info">You need to activate your Flash Player.<br><a href="http://get.adobe.com/flashplayer/" target="_blank" class="btround">Click to activate</a></div>
+					<div class="info">You need to install or upgrade your Flash Player.<br>You can download it <a href="http://get.adobe.com/flashplayer/" target="_blank">here</a>.</div>
 				</div>
 			</div>
 
-			<!-- _____________________________________________ BT-STORE -->
-
-			
 		</div><!-- div wrap -->
-
+		
 	</body>
 </html>

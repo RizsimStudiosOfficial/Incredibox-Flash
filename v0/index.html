@@ -9,13 +9,10 @@
 	<meta name="robots" content="index">
 	<meta name="author" content="allan DURAND, paul MALBURET, romain DELAMBILY">
 	<link href="favicon.ico" type="image/ico" rel="icon">
+	<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 	<script type="text/javascript" src="../js/swfobject.js"></script>
 	<script type="text/javascript">
-		var so = new SWFObject('https://raw.githubusercontent.com/Joalor64GH/Incredibox-Flash/main/v0/index.swf', 'flashcontent', '100%', '100%', '9', '#ffffff');
-    	so.addParam('menu', 'false');
-    	so.addParam('scale', 'noscale');
-    	so.addParam('salign', 'lt'); 
-    	so.write('flashcontent');
+		swfobject.embedSWF("v0/index.swf", "flashcontent", "100%", "100%", "9", "#ffffff");
     </script>
 	<style type="text/css">
 	* {

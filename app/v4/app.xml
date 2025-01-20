@@ -122,22 +122,22 @@
 			<mp3>sound-v4/bonus/aspire.mp3</mp3>
 		</sonBonus>
 		<sonBonus picto="bonus1">
-			<mp3>sound-v4/bonus/baby.mp3</mp3>
+			<mp3>sound-v4/bonus/1-love.mp3</mp3>
 		</sonBonus>
 		<sonBonus picto="bonus2">
-			<mp3>sound-v4/bonus/baby.mp3</mp3>
+			<mp3>sound-v4/bonus/2-follow.mp3</mp3>
 		</sonBonus>
 		<sonBonus picto="bonus3">
-			<mp3>sound-v4/bonus/baby.mp3</mp3>
+			<mp3>sound-v4/bonus/3-eagle.mp3</mp3>
 		</sonBonus>
 
 	</musique>
 
 	<pathBonus loop="1">
 
-		<swf code="0,1,5,10,16" visible="1" name="Love">bonus-v4/baby-love.swf</swf>
-		<swf code="" visible="0" name="">bonus-v4/baby-love.swf</swf>
-		<swf code="" visible="0" name="">bonus-v4/baby-love.swf</swf>
+		<swf code="0,1,5,10,16" visible="1" name="Love">bonus-v4/1-love.swf</swf>
+		<swf code="0,5,7,11,17" visible="1" name="Follow">bonus-v4/2-follow.swf</swf>
+		<swf code="0,3,5,12,15" visible="1" name="Eagle">bonus-v4/3-eagle.swf</swf>
 
 	</pathBonus>
 

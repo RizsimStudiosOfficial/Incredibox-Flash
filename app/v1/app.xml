@@ -12,7 +12,7 @@
 		<name>Alpha</name>
 		<version>1</version>
 		<annee>2009</annee>
-		<duree>5333</duree> <!-- does putting the actual looptime work? idfk -->
+		<duree>5.84</duree>
 		<frame>260</frame>
 		<bonusloopA>true</bonusloopA>
 		<volencode>0.65</volencode>
